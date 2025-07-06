@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    padding: 25px;
+    background-image: url("bg.avif");
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: rgb(73, 85, 98);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(41, 52, 65);
+    color: white;
+}
+
+.box {
+    width: 350px;
+    height: 525px;
+    background-color: rgb(106, 118, 131);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+}
+
+.details>input {
+    height: 50px;
+    width: 85%;
+    border-radius: 30px;
+}
+
+.search-btn>img {
+    width: 16px;
+}
+
+input,
+button {
+    margin-top: 30px;
+}
+
+input {
+    font-size: 20px;
+    text-indent: 20px;
+    border-top:rgb(106, 118, 131);
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid  rgb(106, 118, 131);
+}
+
+button {
+    outline: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.weather {
+    margin-top: 5px;
+    text-align: center;
+    height: 300px;
+}
+
+.weather>img {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.humwin {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 33px;
+}
+
+.hum {
+    display: flex;
+    align-items: center;
+}
+
+.hum>img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.wind {
+    display: flex;
+    align-items: center;
+}
+
+.wind>img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.cityname {
+
+    font-size: 40px;
+    color: rgb(254, 244, 244);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.temp {
+    font-size: 50px;
+    margin-bottom: 20px;
+}

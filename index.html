@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-app</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Weather Application</h1>
+    </header>
+    <main>
+      <div class="box">
+        <div class="details">
+          <input type="text" placeholder="Search" class="input-text" />
+          <button class="search-btn"><img src="search.png" alt="" /></button>
+        </div>
+        <div class="error">
+          <p
+            style="
+              font-size: 20px;
+              color: white;
+              padding-top: 25px;
+              text-align: center;
+            "
+          >
+            Invalid city name
+          </p>
+        </div>
+        <div class="nonebg">
+          <div class="weather">
+            <img src="mist.png" alt="" class="image-change" />
+            <h2 class="temp">29°C</h2>
+            <h1 class="cityname">
+              <span style="font-size: 20px; padding-right: 13px"
+                >weather in</span
+              >result
+            </h1>
+          </div>
+
+          <div class="humwin">
+            <div class="hum">
+              <img src="humidity.png" alt="" />
+              <div>
+                <p class="humv">50%</p>
+                <p class="humn">Humidity</p>
+              </div>
+            </div>
+
+            <div class="wind">
+              <img src="wind.png" alt="" />
+              <div>
+                <p class="windv">15 km/h</p>
+                <p class="windn">Wind speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h4>created by @kavin</h4>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
