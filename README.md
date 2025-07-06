@@ -15,4 +15,11 @@ A clean and simple weather app where users can search any city to view real-time
 - ⚡ Fast & lightweight
 
 ---
+## 🛠️ Tech Stack
+
+- **HTML** – Page structure  
+- **CSS** – Styling & layout  
+- **JavaScript** – Fetching and displaying data  
+- **OpenWeatherMap API** – For real-time weather data  
+- **Netlify** – For deployment
 
